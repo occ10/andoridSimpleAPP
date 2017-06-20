@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="boton3">Registrar</string>
+    <string name="emailR">Email</string>
+    <string name="passwordR">Password</string>
+    <string name="nameR">Name</string>
+    <string name="emailEntrar">Email</string>
+    <string name="passwordEntrar">Pasword</string>
+    <string name="boton1Entrar">Entrar</string>
+    <string name="cuentaEntrar">¿No tienes cuenta?</string>
+    <string name="boton2Entrar">Registrar</string>
+    <string name="fechaNacimeintoR">Fecha de Nacimiento</string>
+    <string name="SexoR">Sexo</string>
+    <string name="dia">dd</string>
+
+
+    <string-array name="sexo">
+        <item>hombre</item>
+        <item>mujer</item>
+    </string-array>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_main3">Main3Activity</string>
+    <string name="title_activity_main4">Main4Activity</string>
+    <string name="title_activity_main5">Main5Activity</string>
+
+</resources>

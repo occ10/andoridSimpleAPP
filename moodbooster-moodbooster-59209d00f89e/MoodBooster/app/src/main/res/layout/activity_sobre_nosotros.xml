@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:paddingTop="0dp"
+    android:background="#2b90d9"
+    tools:context="mb.moodbooster.SobreNosotros">
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:src="@drawable/universidad_de_alicante"
+        android:scaleType = "centerCrop"
+        android:alpha=".25"/>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   MoodBooster te ayudará a mantener un registro de tus estados de ánimo  y  te recomendará contenidos digitales en base a como te sientes."
+        android:id="@+id/textView2"
+        android:autoText="false"
+        android:shadowColor="#000000"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:backgroundTint="#000000"
+        android:textSize="17dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_above="@+id/textView10"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/logopeq"
+        android:id="@+id/imageView2"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="   La aplicación  se ha realizado por 4 alumnos de la Universidad de Alicante para la asignatura: Técnicas Avanzadas de Especificación Software."
+        android:id="@+id/textView10"
+        android:autoText="false"
+        android:shadowColor="#000000"
+        android:textColor="#ffffff"
+        android:textStyle="normal"
+        android:backgroundTint="#000000"
+        android:textSize="17dp"
+        android:layout_marginLeft="19dp"
+        android:layout_marginRight="19dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp" />
+
+</RelativeLayout>
